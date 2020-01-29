@@ -16,6 +16,10 @@ class download:
         print(f' -- Title: {self.yt.title}')
         print(f' -- Author: {self.yt.author}')
         import ipdb; ipdb.set_trace()
+    
+    def loading(self):
+        self.yt.streams.get_by_itag(140).download('./Download')
+        
         
 link = input('Digite o link para download: ')
 d = download()
