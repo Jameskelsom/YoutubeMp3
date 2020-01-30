@@ -1,5 +1,5 @@
 from pytube import YouTube #update pytube3
-import os
+import os #create dir
 
 class download:
     def setUp(self, url):
