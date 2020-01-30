@@ -1,4 +1,4 @@
-from pytube import YouTube
+from pytube import YouTube #update pytube3
 import os
 
 class download:
